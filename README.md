@@ -5,44 +5,6 @@
 
 # **Tugas 7: Elemen Dasar Flutter**
 
-## **Perbedaan Utama antara *Stateless* dan *Stateful Widget* dalam Konteks Pengembangan Aplikasi Flutter?**
-
-### *Stateless Widget*
-*Stateless Widget* dalam Flutter adalah suatu jenis widget yang tidak mempunyai *state* sehingga kondisinya tidak berubah atau tidak memiliki kemampuan untuk melakukan perubahan data setelah dibuat. Widget ini digunakan untuk membuat bagian antarmuka yang bersifat statis, artinya tampilan atau elemen tersebut tidak akan berubah-ubah jika dilakukan berbagai macam interaksi, seperti menampilkan informasi statis dan tampilan atau elemen yang tidak memerlukan pembaruan. 
-
-### *Stateful Widget*
-*Stateful Widget* dalam Flutter adalah suatu widget yang mempunyai *state* sehingga dapat berubah-ubah. Widget ini umumnya digunakan ketika perlu mengelola state internal dan merespons interaksi pengguna dengan pembaruan yang terjadi dalam aplikasi. Widget ini cocok digunakan untuk membuat bagian antarmuka yang perlu berubah ketika dikenakan interaksi kepadanya, seperti button yang berubah warna ketika diklik ataupun respons lainnya. Widget ini bersifat dinamis dan dapat berubah sehingga Flutter akan membuat widget tersebut seiring dengan terjadinya perubahan untuk mencerminkan pembaruan yang terjadi. Pengelolaan *Stateful Widget* berbeda dengan *Stateless Widget*, di mana pada *Stateful Widget* memerlukan adanya sebuah kelas tambahan yang disebut State yang berperan dalam mengelola state dari widget tersebut.
-
-## **Seluruh Widget yang Digunakan untuk Menyelesaikan Tugas Ini dan Penjelasan Fungsi Masing-Masing Widget**
-* `AppBar`:
-    Widget yang umumnya ditempatkan di bagian atas atau terkadang di bagian bawah aplikasi, berisi toolbar dan beberapa tombol tindakan umum lainnya.
-* `ColorScheme`:
-    Widget yang berisi kumpulan warna yang terdiri atas satu set 30 warna berdasarkan spesifikasi Material yang dapat digunakan untuk mengatur properti warna sebagian besar komponen.
-* `Column`:
-    Widget yang digunakan untuk membuat tata letak secara vertikal.
-* `GridView.count`:
-    Widget yang digunakan untuk membuat tata letak dengan jumlah tile yang tetap pada sumbu lintang.
-* `InkWell`:
-    Widget yang menghasilkan area persegi panjang widget Material yang merespons peristiwa sentuhan dengan menampilkan percikan yang terpotong.
-* `Container`:
-    Kelas widget yang memungkinkan penyesuaian widget turunannya.
-* `Icon`:
-    Widget yang digunakan untuk menampilkan berbagai ikon dengan berbagai model dan ukuran.
-* `MaterialApp`: 
-    Widget yang digunakan untuk mengelompookkan sejumlah widget yang umumnya diperlukan untuk Material Design applications.
-* `ThemeData`:
-    Widget yang digunakan untuk mengontrol tampilan tema seluruh aplikasi yang dibuat.
-* `Padding`:
-    Widget untuk menambahkan lapisan atau ruang kosong di sekitar widget atau kelompok widget.
-* `Material`:
-    Widget yang berfungsi untuk menyediakan desain visual Material Design pada widget lain.
-* `Scaffold`:
-    Widget berupa kelas dalam flutter yang menyediakan banyak widget atau bisa dikatakan API seperti Drawer, Snack-Bar, Bottom-Navigation-Bar, Floating-Action-Button, App-Bar, dll. Scaffold akan mengisi atau menempati seluruh layar perangkat dan mengisi ruang yang ada.
-* `SnackBar`:
-    Widget yang berupa pesan singkat dengan opsi tindakan yang muncul secara singkat di bagian bawah layar.
-* `Text`:
-    Text widget yang digunakan untuk menampilkan serangkaian teks dengan single-style. Teks dapat berupa satu atau beberapa baris, tergantung pada tata letak dengan argumen gaya teks yang bersifat opsional.
-
 ## **Implementasi Checklist Tugas 7**
 
 1. Buka sebuah direktori yang akan digunakan untuk membuat aplikasi ini, kemudian buka terminal atau *command prompt* pada direktori tersebut.
@@ -228,3 +190,41 @@ Implementasikan warna-warna berbeda untuk setiap tombol `Lihat Item`, `Tambah It
     }
    ```
 4. Di dalam direktori proyek, kemudian jalankan proyek tersebut di aplikasi Google Chrome dengan perintah `flutter run -d chrome` untuk memastikan aplikasi telah sesuai.
+
+## **Perbedaan Utama antara *Stateless* dan *Stateful Widget* dalam Konteks Pengembangan Aplikasi Flutter?**
+
+### *Stateless Widget*
+*Stateless Widget* dalam Flutter adalah suatu jenis widget yang tidak mempunyai *state* sehingga kondisinya tidak berubah atau tidak memiliki kemampuan untuk melakukan perubahan data setelah dibuat. Widget ini digunakan untuk membuat bagian antarmuka yang bersifat statis, artinya tampilan atau elemen tersebut tidak akan berubah-ubah jika dilakukan berbagai macam interaksi, seperti menampilkan informasi statis dan tampilan atau elemen yang tidak memerlukan pembaruan. 
+
+### *Stateful Widget*
+*Stateful Widget* dalam Flutter adalah suatu widget yang mempunyai *state* sehingga dapat berubah-ubah. Widget ini umumnya digunakan ketika perlu mengelola state internal dan merespons interaksi pengguna dengan pembaruan yang terjadi dalam aplikasi. Widget ini cocok digunakan untuk membuat bagian antarmuka yang perlu berubah ketika dikenakan interaksi kepadanya, seperti button yang berubah warna ketika diklik ataupun respons lainnya. Widget ini bersifat dinamis dan dapat berubah sehingga Flutter akan membuat widget tersebut seiring dengan terjadinya perubahan untuk mencerminkan pembaruan yang terjadi. Pengelolaan *Stateful Widget* berbeda dengan *Stateless Widget*, di mana pada *Stateful Widget* memerlukan adanya sebuah kelas tambahan yang disebut State yang berperan dalam mengelola state dari widget tersebut.
+
+## **Seluruh Widget yang Digunakan untuk Menyelesaikan Tugas Ini dan Penjelasan Fungsi Masing-Masing Widget**
+* `AppBar`:
+    Widget yang umumnya ditempatkan di bagian atas atau terkadang di bagian bawah aplikasi, berisi toolbar dan beberapa tombol tindakan umum lainnya.
+* `ColorScheme`:
+    Widget yang berisi kumpulan warna yang terdiri atas satu set 30 warna berdasarkan spesifikasi Material yang dapat digunakan untuk mengatur properti warna sebagian besar komponen.
+* `Column`:
+    Widget yang digunakan untuk membuat tata letak secara vertikal.
+* `GridView.count`:
+    Widget yang digunakan untuk membuat tata letak dengan jumlah tile yang tetap pada sumbu lintang.
+* `InkWell`:
+    Widget yang menghasilkan area persegi panjang widget Material yang merespons peristiwa sentuhan dengan menampilkan percikan yang terpotong.
+* `Container`:
+    Kelas widget yang memungkinkan penyesuaian widget turunannya.
+* `Icon`:
+    Widget yang digunakan untuk menampilkan berbagai ikon dengan berbagai model dan ukuran.
+* `MaterialApp`: 
+    Widget yang digunakan untuk mengelompookkan sejumlah widget yang umumnya diperlukan untuk Material Design applications.
+* `ThemeData`:
+    Widget yang digunakan untuk mengontrol tampilan tema seluruh aplikasi yang dibuat.
+* `Padding`:
+    Widget untuk menambahkan lapisan atau ruang kosong di sekitar widget atau kelompok widget.
+* `Material`:
+    Widget yang berfungsi untuk menyediakan desain visual Material Design pada widget lain.
+* `Scaffold`:
+    Widget berupa kelas dalam flutter yang menyediakan banyak widget atau bisa dikatakan API seperti Drawer, Snack-Bar, Bottom-Navigation-Bar, Floating-Action-Button, App-Bar, dll. Scaffold akan mengisi atau menempati seluruh layar perangkat dan mengisi ruang yang ada.
+* `SnackBar`:
+    Widget yang berupa pesan singkat dengan opsi tindakan yang muncul secara singkat di bagian bawah layar.
+* `Text`:
+    Text widget yang digunakan untuk menampilkan serangkaian teks dengan single-style. Teks dapat berupa satu atau beberapa baris, tergantung pada tata letak dengan argumen gaya teks yang bersifat opsional.
