@@ -882,11 +882,11 @@ Navigator.pushReplacement(
 
 ## **Elemen Input pada Form yang Saya Pakai pada Tugas Kali Ini dan Penjelasan Mengapa Saya Menggunakan Elemen Input Tersebut**
 
-1. `TextFormField`
+1. `TextFormField` <br/>
 `TextFormField` menyediakan kolom untuk melakukan input yang saya gunakan untuk menerima input berupa `name`, `category`, `amount`, `price`, dan `description`. TextFormField menyediakan berbagai opsi dekorasi dan validasi yang memudahkan pengguna untuk memasukkan data dengan benar.
 `onChanged` digunakan untuk menangani perubahan nilai pada saat pengguna memasukkan atau mengubah teks di dalam TextFormField.  `onSaved` digunakan untuk menyimpan nilai input saat formulir dianggap valid dan disimpan. `validator` digunakan untuk memastikan bahwa input tidak kosong dan berupa tipe data yang sesuai.
 
-2. `ElevatedButton`
+2. `ElevatedButton`<br/>
 
 `ElevatedButton` digunakan untuk membuat tombol yang muncul dengan material design. `child` dapat berisi widget lagi, dapat berupa text atau yang lainnya. `onPressed` dapat diisi dengan fungsi ketika tombol ditekan, seperti menyimpan data. `onPressed` callback pada ElevatedButton memungkinkan penentuan aksi atau logika yang akan dieksekusi ketika tombol ditekan. Pada kode saya, ketika tombol "Save" ditekan, logika disertakan untuk memvalidasi formulir, menyimpan item, dan menampilkan dialog konfirmasi.
 
