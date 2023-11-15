@@ -870,6 +870,7 @@ Navigator.pushReplacement(
 ```
 
 ## **Penjelaskan Masing-Masing Layout Widget pada Flutter dan Konteks Penggunaannya Masing-Masing!**
+* `Card` : : Layout widget ini berguna untuk mengelompokkan informasi ke dalam kotak. Cocok untuk menampilkan informasi tertentu.
 * `Container`: Layout widget ini berguna untuk mengelompokkan dan mendekorasi widget lain, seperti menentukan warna latar belakang, batas, dan padding.
 * `Column`: Layout widget ini berguna untuk menyusun widget dalam kolom vertikal. Cocok untuk menata widget secara vertikal.
 * `Expanded`: Layout widget ini digunakan untuk memperluas child widget dalam widget parent, terutama dalam Row dan Column untuk memberikan proporsi.
